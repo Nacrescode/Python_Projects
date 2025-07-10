@@ -1,0 +1,11 @@
+# Event Time Calculator
+
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+nmin = (mins + dura) % 60
+addh = (mins + dura) // 60
+nhour = (hour + addh) % 24
+
+print(f"End time: {nhour:02}:{nmin:02}")
