@@ -1,7 +1,5 @@
 # Leap Year Checker
 
-import math
-
 year = int(input("Enter a year: "))
 
 if year < 1582:
