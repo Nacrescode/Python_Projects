@@ -1,0 +1,10 @@
+blocks = int(input("Enter the number of blocks: "))
+
+height = 0
+used = 0
+
+while used + (height + 1) <= blocks:
+    height += 1
+    used += height
+
+print("The height of the pyramid:", height)
