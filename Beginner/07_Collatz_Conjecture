@@ -1,13 +1,20 @@
-collatz_number = int(input("Enter a positive number: "))
-steps= 0
+"""
+This script tests the Collatz conjecture by repeatedly applying rules to a 
+positive integer: if the number is even, divide it by two; if odd, multiply 
+by three and add one. It counts and prints each step until the number reaches 1.
+"""
+
+collatz_number = int(input("Enter a positive number: "))  # Get positive integer from user
+steps = 0                                                # Initialize step counter
+
 while collatz_number != 1:
-    if collatz_number%2 == 0:
-        collatz_number//=2
-        print (collatz_number)
-        steps+=1
-    else:
-        collatz_number= (3 * collatz_number) + 1
-        print (collatz_number)
-        steps+=1
-print("steps = "+ str(steps))
-        
+    if collatz_number % 2 == 0:                          # If number is even
+        collatz_number //= 2                             # Divide by 2
+        print(collatz_number)
+        steps += 1
+    else:                                                # If number is odd
+        collatz_number = (3 * collatz_number) + 1       # Multiply by 3 and add 1
+        print(collatz_number)
+        steps += 1
+
+print("steps = " + str(steps))                           # Print total steps taken
