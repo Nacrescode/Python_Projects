@@ -1,7 +1,13 @@
+"""
+This script simulates a simple real-time count using the phrase
+"Mississippi" to mimic seconds passing. It uses a for loop and 
+the time.sleep() function to pause for one second between each count.
+"""
+
 import time
 
-for i in range(1, 6):
-    print(f"{i} Mississippi")
-    time.sleep(1)
+for i in range(1, 6):                         # Loop from 1 to 5
+    print(f"{i} Mississippi")                 # Print counting phrase
+    time.sleep(1)                             # Wait for 1 second
 
-print("Ready or not, here I come!")
+print("Ready or not, here I come!")          # Final message after countdown
