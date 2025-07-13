@@ -1,14 +1,18 @@
-# Leap Year Checker
+"""
+This script checks whether a given year is a leap year or a common year 
+based on the rules of the Gregorian calendar. It also excludes years 
+before 1582 when the Gregorian system was adopted.
+"""
 
-year = int(input("Enter a year: "))
+year = int(input("Enter a year: "))  # Get a year from the user
 
 if year < 1582:
-    print("Not within the Gregorian calendar period")
+    print("Not within the Gregorian calendar period")  # Calendar not valid before 1582
 elif year % 4 != 0:
-    print("Common year")
+    print("Common year")        # Not divisible by 4 → common year
 elif year % 100 != 0:
-    print("Leap year")
+    print("Leap year")          # Divisible by 4 but not 100 → leap year
 elif year % 400 != 0:
-    print("Common year")
+    print("Common year")        # Divisible by 100 but not 400 → common year
 else:
-    print("Leap year")
+    print("Leap year")          # Divisible by 400 → leap year
