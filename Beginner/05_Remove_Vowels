@@ -1,16 +1,17 @@
-#RemoveVowels
+"""
+This script removes all vowels from a word entered by the user.
+It converts the input to uppercase and skips vowel characters
+while building a new string without vowels.
+"""
 
 word_without_vowels = ""
 
-user_word = input ("Please enter a word") #word Prompt the user to enter a word
-user_word = user_word.upper()
+user_word = input("Please enter a word: ")   # Prompt the user to enter a word
+user_word = user_word.upper()                 # Convert input to uppercase for uniformity
 
+for letter in user_word:                      
+    if letter in ("A", "E", "I", "O", "U"):  # Check if the letter is a vowel
+        continue                             # Skip vowels
+    word_without_vowels += letter            # Add non-vowel letters to the result string
 
-for letter in user_word:
-    if letter in ("A", "E", "I", "O", "U"):
-        continue  
-    word_without_vowels += letter
-    
-
-print (word_without_vowels)
-
+print(word_without_vowels)                    # Print the word without vowels
