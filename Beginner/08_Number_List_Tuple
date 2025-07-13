@@ -1,16 +1,24 @@
-number_list = [1, 2, 3, 4, 5]  
+"""
+This script starts with a predefined list of numbers,
+replaces the middle element with user input,
+removes the last item,
+adds elements using append, insert, and extend,
+converts the list to a tuple,
+and prints the final tuple and its length.
+"""
 
-number = int(input("Entry a number ")) # Step 1: write a line of code that prompts the user
-number_list[2]= number # to replace the middle number with an integer number entered by the user.
-del number_list [-1] # Step 2: write a line of code that removes the last element from the list.
+number_list = [1, 2, 3, 4, 5]
 
-liste = [1, 2, 3]
+number = int(input("Enter a number: "))     # replaces the middle element with user input
+number_list[2] = number
 
-number_list.append(13)       # adds 13 to the end of the list
-number_list.insert(1, 99)    # inserts 99 at index 1
-number_list.extend([7, 17])  # adds multiple items to the end of the list
+del number_list[-1]                         # removes the last item
 
-tuple1 = tuple(number_list) 
-print ("Length of tuple is: ", len(tuple1))# Step 3: write a line of code that prints the length of the existing list.
+number_list.append(13)                      # adds 13 to the end of the list
+number_list.insert(1, 99)                   # inserts 99 at index 1
+number_list.extend([7, 17])                 # adds multiple items to the end of the list
 
-print(tuple1)
+tuple1 = tuple(number_list)                 # converts the list to a tuple
+
+print("Length of tuple is:", len(tuple1))   # prints the length
+print(tuple1)                               # prints the final tuple
