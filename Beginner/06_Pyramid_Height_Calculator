@@ -1,10 +1,18 @@
-blocks = int(input("Enter the number of blocks: "))
+"""
+This script calculates the maximum height of a pyramid that can be 
+built using a given number of blocks. Each level requires an increasing 
+number of blocks, starting with 1 at the top. It uses a while loop 
+to determine how many full levels can be constructed.
+"""
 
-height = 0
-used = 0
+blocks = int(input("Enter the number of blocks: "))  # Get total blocks from user
 
+height = 0      # Current pyramid height
+used = 0        # Blocks used so far
+
+# Loop to add levels while enough blocks remain
 while used + (height + 1) <= blocks:
     height += 1
     used += height
 
-print("The height of the pyramid:", height)
+print("The height of the pyramid:", height)           # Output the calculated height
