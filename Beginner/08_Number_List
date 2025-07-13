@@ -1,9 +1,0 @@
-number_list = [1, 2, 3, 4, 5]  
-
-number = int(input("Entry a number ")) # Step 1: write a line of code that prompts the user
-number_list[2]= number # to replace the middle number with an integer number entered by the user.
-del number_list [-1] # Step 2: write a line of code that removes the last element from the list.
-
-print ("Length of list is: ", len(number_list))# Step 3: write a line of code that prints the length of the existing list.
-
-print(number_list)

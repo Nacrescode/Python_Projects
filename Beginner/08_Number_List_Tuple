@@ -1,0 +1,16 @@
+number_list = [1, 2, 3, 4, 5]  
+
+number = int(input("Entry a number ")) # Step 1: write a line of code that prompts the user
+number_list[2]= number # to replace the middle number with an integer number entered by the user.
+del number_list [-1] # Step 2: write a line of code that removes the last element from the list.
+
+liste = [1, 2, 3]
+
+number_list.append(13)       # adds 13 to the end of the list
+number_list.insert(1, 99)    # inserts 99 at index 1
+number_list.extend([7, 17])  # adds multiple items to the end of the list
+
+tuple1 = tuple(number_list) 
+print ("Length of tuple is: ", len(tuple1))# Step 3: write a line of code that prints the length of the existing list.
+
+print(tuple1)
