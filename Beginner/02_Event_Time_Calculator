@@ -1,11 +1,16 @@
-# Event Time Calculator
+"""
+This script calculates the end time of an event based on a starting time 
+and the duration (in minutes). It adjusts for hour and minute overflows 
+and displays the final time in 24-hour format (HH:MM).
+"""
 
-hour = int(input("Starting time (hours): "))
-mins = int(input("Starting time (minutes): "))
-dura = int(input("Event duration (minutes): "))
+hour = int(input("Starting time (hours): "))      # Get starting hour from user
+mins = int(input("Starting time (minutes): "))    # Get starting minutes from user
+dura = int(input("Event duration (minutes): "))   # Get event duration in minutes
 
-nmin = (mins + dura) % 60
-addh = (mins + dura) // 60
-nhour = (hour + addh) % 24
+nmin = (mins + dura) % 60                         # Calculate final minutes
+addh = (mins + dura) // 60                        # Extra hours from added minutes
+nhour = (hour + addh) % 24                        # Final hour, adjusted for 24-hour wrap
 
-print(f"End time: {nhour:02}:{nmin:02}")
+print(f"End time: {nhour:02}:{nmin:02}")          # Print formatted end time
+
