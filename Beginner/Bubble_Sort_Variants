@@ -1,0 +1,62 @@
+"""
+Bubble Sort Variations
+
+This script demonstrates three different versions of the Bubble Sort algorithm:
+1. Version 1: Takes individual user inputs to populate the list.
+2. Version 2: Accepts a comma-separated string of numbers and uses manual bubble sort.
+3. Version 3: Accepts a comma-separated string of numbers and uses Python's built-in sort() method.
+"""
+
+# -------------------------------
+# Version 1 – Manual entry (one by one)
+# -------------------------------
+
+print("=== Version 1: Element-by-element input ===")
+
+my_list = []
+swapped = True
+num = int(input("How many elements do you want to sort: "))
+
+for i in range(num):
+    val = float(input("Enter a list element: "))  # User inputs each element individually
+    my_list.append(val)
+
+while swapped:
+    swapped = False
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:  # Swap if current element is greater than the next
+            swapped = True
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+
+print("Sorted list:", my_list)
+
+
+# -------------------------------
+# Version 2 – Comma-separated input with manual bubble sort
+# -------------------------------
+
+print("\n=== Version 2: Comma-separated input with manual sorting ===")
+
+my_list = [float(x.strip()) for x in input("Enter elements separated by commas: ").split(',')]
+swapped = True
+
+while swapped:
+    swapped = False
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:  # Bubble swap
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+            swapped = True
+
+print("Sorted list:", my_list)
+
+
+# -------------------------------
+# Version 3 – Comma-separated input with built-in sort()
+# -------------------------------
+
+print("\n=== Version 3: Comma-separated input with built-in sort() ===")
+
+my_list = [float(x.strip()) for x in input("Enter elements (comma-separated): ").split(",")]
+my_list.sort()  # Built-in Python sort method
+
+print("Sorted list:", my_list)
