@@ -1,0 +1,33 @@
+"""
+The Beatles List Builder:
+- Starts with an empty list.
+- Adds the three founding members using extend().
+- Appends two more names in a loop (temporary members).
+- Removes the last two names using del.
+- Inserts Ringo Starr at the beginning.
+- Prints the final list and its length.
+"""
+
+# Step 1: Create an empty list
+beatles = []
+print("Step 1:", beatles)
+
+# Step 2: Add initial members using extend
+beatles.extend(["John Lennon", "Paul McCartney", "George Harrison"])
+print("Step 2:", beatles)
+
+# Step 3: Use a loop to add user-inputted names
+for i in ("Stu Sutcliffe", "Pete Best"):
+    beatles.append(i)
+print("Step 3:", beatles)
+
+# Step 4: Remove the last two members (Stu and Pete)
+del beatles[-2:]
+print("Step 4:", beatles)
+
+# Step 5: Insert Ringo at the beginning
+beatles.insert(0, "Ringo Starr")
+print("Step 5:", beatles)
+
+# Final check: List length
+print("The Fab", len(beatles))
