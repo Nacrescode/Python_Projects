@@ -14,4 +14,6 @@ This repository contains my Python code.
 - **Number_List_Tuple:** Starts with a list of numbers, replaces the middle element with user input, removes the last item, adds new elements using different list methods, converts the list to a tuple, and prints the final tuple along with its length.
 - **Beatles_List_Builder:**"A basic list-manipulation exercise that builds a list of Beatles members based on a predefined scenario. Covers append, extend, delete, insert, and slicing techniques."
 - **Bubble Sort Variants:** Demonstrates three ways to sort user-provided numbers using the Bubble Sort algorithm—by taking input one-by-one, as a comma-separated string with manual sorting, and with Python’s built-in sort method.
+- **Unique Elements Filter:** Iterates through a list and builds a new one by appending only the first occurrence of each number.
+
 
