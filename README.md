@@ -16,5 +16,7 @@ This repository contains my Python code.
 - **Bubble Sort Variants:** Demonstrates three ways to sort user-provided numbers using the Bubble Sort algorithm—by taking input one-by-one, as a comma-separated string with manual sorting, and with Python’s built-in sort method.
 - **Unique Elements Filter:** Iterates through a list and builds a new one by appending only the first occurrence of each number.
 - **Day of the Year Calculator:** A function-based program that calculates the day number within the year for any given date (year, month, day). It correctly handles leap years according to the Gregorian calendar and validates input values to ensure accurate results.
+- **Fuel Conversion:** Converts between liters per 100 km and miles per gallon using two simple functions with unit conversion based on international standards.
+
 
 
