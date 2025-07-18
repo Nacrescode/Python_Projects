@@ -1,0 +1,45 @@
+def liters_100km_to_miles_gallon(liters):
+    """
+    Converts fuel consumption from liters per 100 kilometers (L/100km)
+    to miles per gallon (mpg), which is commonly used in the United States.
+
+    Parameters:
+        liters (float): Fuel consumption in liters per 100 km.
+
+    Returns:
+        float: Equivalent fuel consumption in miles per gallon.
+    """
+    # 100 km = 100,000 meters
+    # 1 mile = 1609.344 meters, so this gives total miles in 100 km
+    # Then divide by liters to find miles per liter
+    # Finally, convert liters to gallons (1 gallon = 3.785411784 liters)
+    gallon = 100000 / 1609.344 / liters * 3.785411784
+    return gallon
+
+
+def miles_gallon_to_liters_100km(miles):
+    """
+    Converts fuel consumption from miles per gallon (mpg)
+    to liters per 100 kilometers (L/100km), which is commonly used in Europe.
+
+    Parameters:
+        miles (float): Fuel consumption in miles per gallon.
+
+    Returns:
+        float: Equivalent fuel consumption in liters per 100 km.
+    """
+    # 1 mile = 1.609344 kilometers, so miles * 1.609344 = kilometers per gallon
+    # We want liters used in 100 km, so we apply the inverse proportion
+    # 1 gallon = 3.785411784 liters
+    liters = 100 * 3.785411784 / (miles * 1.609344)
+    return liters
+
+
+# Example usage:
+print(liters_100km_to_miles_gallon(3.9))   # High efficiency
+print(liters_100km_to_miles_gallon(7.5))   # Moderate efficiency
+print(liters_100km_to_miles_gallon(10.0))  # Lower efficiency
+
+print(miles_gallon_to_liters_100km(60.3))  # Should return ~3.9
+print(miles_gallon_to_liters_100km(31.4))  # Should return ~7.5
+print(miles_gallon_to_liters_100km(23.5))  # Should return ~10.0
