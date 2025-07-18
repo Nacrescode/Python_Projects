@@ -15,5 +15,6 @@ This repository contains my Python code.
 - **Beatles_List_Builder:**"A basic list-manipulation exercise that builds a list of Beatles members based on a predefined scenario. Covers append, extend, delete, insert, and slicing techniques."
 - **Bubble Sort Variants:** Demonstrates three ways to sort user-provided numbers using the Bubble Sort algorithm—by taking input one-by-one, as a comma-separated string with manual sorting, and with Python’s built-in sort method.
 - **Unique Elements Filter:** Iterates through a list and builds a new one by appending only the first occurrence of each number.
+- **Day of the Year Calculator:** A function-based program that calculates the day number within the year for any given date (year, month, day). It correctly handles leap years according to the Gregorian calendar and validates input values to ensure accurate results.
 
 
