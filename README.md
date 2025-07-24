@@ -17,6 +17,7 @@ This repository contains my Python code.
 - **Unique Elements Filter:** Iterates through a list and builds a new one by appending only the first occurrence of each number.
 - **Day of the Year Calculator:** A function-based program that calculates the day number within the year for any given date (year, month, day). It correctly handles leap years according to the Gregorian calendar and validates input values to ensure accurate results.
 - **Fuel Conversion:** Converts between liters per 100 km and miles per gallon using two simple functions with unit conversion based on international standards.
+- **Tic Toc Toe:** A terminal-based two-player game against the computer. The board is displayed using ASCII characters. The player and computer take turns placing 'O' and 'X' respectively. The game ends when a player wins or the board is full (draw). Includes input validation and graceful quit option (q or Q).
 
 
 
