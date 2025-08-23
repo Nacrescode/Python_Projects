@@ -23,4 +23,5 @@ This repository contains my Python code.
 
 - **My Split:** A custom implementation of the Python `split()` method without using the built-in function. It splits a string into words based on spaces, handling empty strings and multiple spaces gracefully. This project is from the Cisco Python Essential 2 course.
 - **Four Sample Programs and Sudoku Validator:** Four Sample Programs and Sudoku Validator: A collection of four small Python programs—Palindrome checker, Anagram checker, Digit of Life calculator, and Find a Word game—along with a Sudoku validator. Each program uses user input, basic string and numeric operations, and includes a simple menu to select which program to run.
+- **Safe Int Input:** A Python function that safely reads an integer from the user within a specified range. Handles invalid input and out-of-range values gracefully, prompting the user until a valid integer is entered.
 
