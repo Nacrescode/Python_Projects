@@ -22,4 +22,5 @@ This repository contains my Python code.
 ## Intermediate
 
 - **My Split:** A custom implementation of the Python `split()` method without using the built-in function. It splits a string into words based on spaces, handling empty strings and multiple spaces gracefully. This project is from the Cisco Python Essential 2 course.
+- **Four Sample Programs and Sudoku Validator:** Four Sample Programs and Sudoku Validator: A collection of four small Python programs—Palindrome checker, Anagram checker, Digit of Life calculator, and Find a Word game—along with a Sudoku validator. Each program uses user input, basic string and numeric operations, and includes a simple menu to select which program to run.
 
