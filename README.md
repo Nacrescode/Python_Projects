@@ -26,4 +26,5 @@ This repository contains my Python code.
 - **Safe Int Input:** A Python function that safely reads an integer from the user within a specified range. Handles invalid input and out-of-range values gracefully, prompting the user until a valid integer is entered.
 - **Counting Stack:** An extended stack implementation that not only performs push and pop operations but also counts how many times each operation is executed. Demonstrates inheritance, encapsulation, and method overriding in Python OOP.
 - **Queue (FIFO):** A Python class that simulates a queue using the FIFO (First In, First Out) method. Supports adding elements, removing elements, and checking if the queue is empty, with a simple usage example.
+- **Timer: ** A simple Python class that stores time using hours, minutes, and seconds in 24-hour format, uses the __str__ method to return the time as a hh:mm:ss string with leading zeros, and allows the time to move forward or backward by one second using next_second() and prev_second() methods, while using private attributes to demonstrate basic object-oriented programming concepts.
 
