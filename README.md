@@ -2,7 +2,7 @@
 
 This repository contains my Python code.
 
-## Case Studies & Simulations
+## Data_Analysis_Projects
 
 - **Hacker Statistics (Empire State Building Simulation):** A simulation-based data project that calculates the probability of winning a bet using 500+ random walks.
   - **Concept:** Solves a complex probability problem by simulating random events and visualizing the final distribution.
