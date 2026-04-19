@@ -1,10 +1,9 @@
 """
 Project: Hacker Statistics (Monte Carlo Simulation) - Empire State Building
-Source: DataCamp Intermediate Python Case Study
 Objective: 
 1. Simulate 500 different random walks based on dice rolls.
-2. Calculate the probability of reaching the 60th step or higher.
-3. Visualize the distribution of end-points using a histogram.
+2. Visualize the distribution of end-points using a histogram.
+3. Calculate the probability of reaching the 60th step or higher.
 Key Skills: Data Simulation, Random Walk, Probability Distribution, Matplotlib.
 """
 
