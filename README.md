@@ -4,10 +4,10 @@ This repository contains my Python code.
 
 ## Data_Analysis_Projects
 
-- **Hacker Statistics (Empire State Building Simulation):** A simulation-based data project that calculates the probability of winning a bet using 500+ random walks.
-  - **Concept:** Solves a complex probability problem by simulating random events and visualizing the final distribution.
-  - **Tools:** `NumPy` (random generators, multi-dimensional arrays), `Matplotlib` (histograms, line plots).
-  - **Highlights:** Demonstrates the ability to handle data distributions and calculate probabilities from simulated results.
+- **Hacker Statistics (Empire State Building Simulation):** A Monte Carlo simulation that calculates the probability of winning a bet using 500 random walks.
+  - **Concept:** Solves a complex probability problem by simulating 100-step random events and visualizing the final distribution.
+  - **Tools:** `NumPy` (random generators, transposition, arrays), `Matplotlib` (histograms).
+  - **Highlights:** Successfully calculates the probability of reaching the 60th step (found to be ~78.4%) using simulated data.
     
 ## Intermediate
 
