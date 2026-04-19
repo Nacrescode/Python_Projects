@@ -1,5 +1,5 @@
 """
-Project: Hacker Statistics - Empire State Building Simulation
+Project: Hacker Statistics (Monte Carlo Simulation) - Empire State Building
 Source: DataCamp Intermediate Python Case Study
 Objective: 
 1. Simulate 500 different random walks based on dice rolls.
