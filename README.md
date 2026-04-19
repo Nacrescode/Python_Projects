@@ -2,6 +2,21 @@
 
 This repository contains my Python code.
 
+## Case Studies & Simulations
+
+- **Hacker Statistics (Empire State Building Simulation):** A simulation-based data project that calculates the probability of winning a bet using 500+ random walks.
+  - **Concept:** Solves a complex probability problem by simulating random events and visualizing the final distribution.
+  - **Tools:** `NumPy` (random generators, multi-dimensional arrays), `Matplotlib` (histograms, line plots).
+  - **Highlights:** Demonstrates the ability to handle data distributions and calculate probabilities from simulated results.
+    
+## Intermediate
+
+- **My Split:** A custom implementation of the Python `split()` method without using the built-in function. It splits a string into words based on spaces, handling empty strings and multiple spaces gracefully. This project is from the Cisco Python Essential 2 course.
+- **Four Sample Programs and Sudoku Validator:** Four Sample Programs and Sudoku Validator: A collection of four small Python programs—Palindrome checker, Anagram checker, Digit of Life calculator, and Find a Word game—along with a Sudoku validator. Each program uses user input, basic string and numeric operations, and includes a simple menu to select which program to run.
+- **Safe Int Input:** A Python function that safely reads an integer from the user within a specified range. Handles invalid input and out-of-range values gracefully, prompting the user until a valid integer is entered.
+- **Counting Stack:** An extended stack implementation that not only performs push and pop operations but also counts how many times each operation is executed. Demonstrates inheritance, encapsulation, and method overriding in Python OOP.
+- **Queue (FIFO):** A Python class that simulates a queue using the FIFO (First In, First Out) method. Supports adding elements, removing elements, and checking if the queue is empty, with a simple usage example.
+- **Timer: ** A simple Python class that stores time using hours, minutes, and seconds in 24-hour format, uses the __str__ method to return the time as a hh:mm:ss string with leading zeros, and allows the time to move forward or backward by one second using next_second() and prev_second() methods, while using private attributes to demonstrate basic object-oriented programming concepts.
 ## Beginner
 
 - **Hypotenuse Calculator:** Calculate the hypotenuse by entering the lengths of the two legs of a right triangle.
@@ -19,12 +34,5 @@ This repository contains my Python code.
 - **Fuel Conversion:** Converts between liters per 100 km and miles per gallon using two simple functions with unit conversion based on international standards.
 - **Tic Toc Toe:** A terminal-based two-player game against the computer. The board is displayed using ASCII characters. The player and computer take turns placing 'O' and 'X' respectively. The game ends when a player wins or the board is full (draw). Includes input validation and graceful quit option (q or Q).
 
-## Intermediate
 
-- **My Split:** A custom implementation of the Python `split()` method without using the built-in function. It splits a string into words based on spaces, handling empty strings and multiple spaces gracefully. This project is from the Cisco Python Essential 2 course.
-- **Four Sample Programs and Sudoku Validator:** Four Sample Programs and Sudoku Validator: A collection of four small Python programs—Palindrome checker, Anagram checker, Digit of Life calculator, and Find a Word game—along with a Sudoku validator. Each program uses user input, basic string and numeric operations, and includes a simple menu to select which program to run.
-- **Safe Int Input:** A Python function that safely reads an integer from the user within a specified range. Handles invalid input and out-of-range values gracefully, prompting the user until a valid integer is entered.
-- **Counting Stack:** An extended stack implementation that not only performs push and pop operations but also counts how many times each operation is executed. Demonstrates inheritance, encapsulation, and method overriding in Python OOP.
-- **Queue (FIFO):** A Python class that simulates a queue using the FIFO (First In, First Out) method. Supports adding elements, removing elements, and checking if the queue is empty, with a simple usage example.
-- **Timer: ** A simple Python class that stores time using hours, minutes, and seconds in 24-hour format, uses the __str__ method to return the time as a hh:mm:ss string with leading zeros, and allows the time to move forward or backward by one second using next_second() and prev_second() methods, while using private attributes to demonstrate basic object-oriented programming concepts.
 
