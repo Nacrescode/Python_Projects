@@ -2,6 +2,9 @@
 
 This repository contains my Python code.
 
+## Author
+Sercan Özverenli
+
 ## Data_Analysis_Projects
 
 - **Hacker Statistics (Empire State Building Simulation):** A Monte Carlo simulation that calculates the probability of winning a bet using 500 random walks.
